@@ -4,8 +4,8 @@
   "description": "Telegram bot for monitoring XRP transaction fees",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "nodemon bot.js"
+    "start": "node init && node bot.js",
+    "dev": "node init && nodemon bot.js"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
