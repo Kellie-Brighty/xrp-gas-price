@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaTelegram, FaGithub } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const socials = [
@@ -60,4 +60,4 @@ const Community: React.FC = () => {
   );
 };
 
-export default Community; 
+export default Community;
