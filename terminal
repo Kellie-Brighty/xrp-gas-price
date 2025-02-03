@@ -1,0 +1,4 @@
+mkdir xrp-fee-bot
+cd xrp-fee-bot
+npm init -y
+npm install telegraf dotenv xrpl node-schedule 
