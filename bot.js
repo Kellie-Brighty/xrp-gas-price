@@ -146,9 +146,8 @@ async function sendGasPrice(ctx) {
     const message =
       `💠 XRP price: $${xrpPrice.toFixed(2)}\n` +
       `⛽️ Base fee: ${currentFee.toFixed(6)} XRP\n\n` +
-      "📢 Coming Soon: \n" +
-      "NorthernLabs will be activating the advertising system shortly.\n" +
-      "Stay tuned for updates in @NorthernLabs!";
+      "🔔 Turn on notifications with /notify\n" +
+      "📢 Run your Ads: Coming Soon";
 
     await ctx.reply(message);
   } catch (error) {
@@ -164,6 +163,7 @@ bot.command("start", async (ctx) => {
     "• /gas_price - Check current fee\n" +
     "• /notify - Enable notifications\n" +
     "• /notifs - Manage notifications\n\n" +
+    "🔔 Pro Tip: Use /notify to get instant updates on price and fee changes!\n\n" +
     "🔔 Get real-time updates on XRP transaction fees!";
 
   await ctx.reply(welcomeMessage);
