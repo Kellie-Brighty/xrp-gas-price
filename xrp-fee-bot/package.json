@@ -1,0 +1,37 @@
+{
+  "name": "xrp-fee-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring XRP transaction fees",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^2.6.9",
+    "node-schedule": "^2.1.1",
+    "telegraf": "^4.16.3",
+    "xrpl": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/xrp-fee-bot"
+  },
+  "keywords": [
+    "xrp",
+    "ripple",
+    "telegram",
+    "bot",
+    "cryptocurrency",
+    "fees"
+  ],
+  "author": "NorthernLabs",
+  "license": "MIT"
+}
