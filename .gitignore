@@ -3,8 +3,6 @@ node_modules/
 package-lock.json
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Logs
@@ -21,7 +19,6 @@ pids
 *.pid.lock
 
 # IDE - VSCode
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -34,3 +31,4 @@ Thumbs.db
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
